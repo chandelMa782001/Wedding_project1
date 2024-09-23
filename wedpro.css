@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(./pexels-trungnguyenphotog-2959196.jpg);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+   opacity: 1;
+}
+.nav-link{
+    color:white;
+    font-size: 20px;
+    padding: 12px;
+    margin-right: 7px;
+}
+.red{
+    background-color: #dc2626;;
+    color: white;
+    padding: 10px;
+}
+.container{
+    position: sticky;
+    top: 10px;
+}
+.text{
+    margin-top: 220px;
+    color: white;
+}
+#first{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+#second{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    line-height: .2px;
+}
+.first{
+    border: 1px solid gainsboro;
+}
+p{
+    padding-left: 50px;
+}
+.inner-content{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+
+/* about sesction start from here */
+  .inner-content h2{
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Futura PT";
+    font-weight: 500;
+    margin: 15px 0px;
+    /* padding-top: 20px; */
+    } 
+   
+   
+    .about .storys {
+        position: relative;
+    }
+   
+          .about .storys h3{
+            font-weight: 500;
+            color: #002642;
+            margin: 0 0 0.5em;
+            text-transform: uppercase;
+            font-family: "Futura PT";
+        } 
+        
+
+     .about .storys >.row{
+        position: relative;
+     }
+     .about .storys .date{
+        font-size: 0.9333333333rem;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 15px;
+        color: #8ab1d2;
+     }
+    .about .storys .image-holder{
+        max-width: 330px;
+        padding: 10px;
+        border: 1px dashed #86a0b6;
+        border-radius: 50%;
+        position: relative;
+        z-index: 1;
+        background: #fff;
+        margin: 0 auto;
+    }
+    .about .storys .image-holder img{
+        border-radius: 50%;
+    }
+     .image-holder img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .about .storys .image-holder .image-shape-image{
+        position: absolute;
+        bottom: -45px;
+        left: 55px;
+    }
+     .about .storys > .row +.row{
+        margin-top: 50px;
+        padding-top: 15px;
+    }
+    .about .storys > .row{
+        position: relative;
+    }
+     .Heart{
+        background-color: #e7eff6;
+        width: 40px;
+        height: 40px;
+        line-height: 41px;
+        text-align: center;
+        position: absolute;
+        left: 50%px;
+        top: 70%px;
+        border-radius: 50%;
+        z-index: 10;
+    } 
+    .another{
+        background-color: #e7eff6;
+        width: 40px;
+        height: 40px;
+        line-height: 41px;
+        text-align: center;
+        position: absolute;
+        /* margin-left: 50%; */
+        left: 102%;
+        top: 70%px;
+        border-radius: 50%;
+        z-index: 10;
+
+    }
+    .text-holder{
+        position: relative;
+    }
+    .about .storys p{
+        margin-left: 0px;
+    }
+    .ano{
+        background-color: #e7eff6;
+        width: 40px;
+        height: 40px;
+        line-height: 41px;
+        text-align: center;
+        position: absolute;
+        left: 52%;
+        top: 70%px;
+        border-radius: 50%;
+        z-index: 10;
+    }
+    /* events section css */
+
+
+    
+    .panel-title a {
+        text-decoration: none;
+        display: inline-block;
+        width: 100%;
+        color: #333;
+        font-size: 16px;
+    }
+
+    .events-accordian .panel-heading {
+        padding: 8px 10px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        background-color: #e9e9e9;
+        margin-bottom: 7px;
+    }
+    .heading span{
+        padding-top: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.4)
+    }
+    .panel .panel-collapse img{
+        border-top-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+       box-shadow:yellowgreen ;
+    }
+    iframe{
+        border-top-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+    }
+    video{
+        border-top-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+    }
